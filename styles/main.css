@@ -135,3 +135,40 @@ a:focus-visible {
   margin-inline: auto;
   padding-inline: var(--space-6);
 }
+
+.utilbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--dark_brown);
+}
+
+#left_utilbar {
+  display: flex;
+  gap: var(--space-1);
+}
+
+#right_utilbar {
+  text-align: left;
+  display: flex;
+}
+
+.contact {
+  text-align: left;
+  color: white;
+}
+
+.langpills {
+  border: 2px solid purple;
+  color: white;
+  margin: 2px;
+  border-radius: 10px;
+}
+
+.langpills:hover {
+  color: var(--cream);
+  background-color: #2EC4B6;
+}
+
+#FR {
+  color: var(--accent_amber);
+}

@@ -175,25 +175,24 @@ a:focus-visible {
   background-color: #2EC4B6;
 }
 
-#FR {
+.contact_icons {
+  width: 17px;
+  height: 17px;
+  justify-content: center;
+  align-items: bottom;
+  display: flex;
+  margin-right: 4px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: 10px;
+}
+
+.active {
   color: var(--warm_brown);
   background-color: var(--accent_amber);
 }
 
-.utilbar_imgs {
-  margin-top: 5px;
-}
-
-#mail {
-  margin-left: 10px;
-  width: 20px;
-  height: 20px;
-}
-
-#fone {
-  width: 17px;
-  height: 17px;
-  justify-content: center;
-  align-items: center;
+.active:hover {
+  background-color: blueviolet;
 }
 

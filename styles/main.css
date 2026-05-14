@@ -135,3 +135,64 @@ a:focus-visible {
   margin-inline: auto;
   padding-inline: var(--space-6);
 }
+
+.utilbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--dark_brown);
+  padding: 5px;
+}
+
+#left_utilbar {
+  display: flex;
+  gap: var(--space-1);
+  margin-left: 7px;
+}
+
+#right_utilbar {
+  text-align: left;
+  display: flex;
+  background-color: var(--warm_brown);
+  border-radius: 20px;
+}
+
+.contact {
+  text-align: left;
+  color: var(--cream);
+}
+
+.langpills {
+  color: var(--cream);
+  margin: 2px;
+  border-radius: 20px;
+  background-color: var(--warm_brown);
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.langpills:hover {
+  color: var(--cream);
+  background-color: #2EC4B6;
+}
+
+.contact_icons {
+  width: 17px;
+  height: 17px;
+  justify-content: center;
+  align-items: bottom;
+  display: flex;
+  margin-right: 4px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: 10px;
+}
+
+.active {
+  color: var(--warm_brown);
+  background-color: var(--accent_amber);
+}
+
+.active:hover {
+  background-color: blueviolet;
+}
+

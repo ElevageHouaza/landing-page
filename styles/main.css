@@ -196,3 +196,45 @@ a:focus-visible {
   background-color: blueviolet;
 }
 
+.navbar {
+display: flex;
+border: 4px dotted yellow;
+justify-content: space-between;
+background-color: var(--cream);
+}
+
+.leftnavbar {
+  display: flex;
+  justify-content: flex-start;
+  border: 4px solid red;
+  padding-right: 5px;
+}
+
+#pholder_logo {
+  width: 16px;
+  height: 16px;
+}
+
+.rightnavbar {
+  display: flex;
+  align-items: center;
+  border: 4px solid blue;
+  gap: 10px;
+}
+
+.navbar__button--nouscontacter {
+  padding: 6px;
+  background-color: var(--dark_brown);
+  color: var(--cream);
+}
+
+.navbar__button--nouscontacter:hover {
+  background-color: hsl(29, 61%, 11%);
+}
+
+.navbar__logo {
+  height: 48px;
+  width: auto;
+  align-items: center;
+}
+

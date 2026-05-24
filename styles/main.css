@@ -235,6 +235,10 @@ padding: 1rem 2rem;
   gap: 1.5rem;
 }
 
+.navlinks:hover {
+  text-decoration: underline;
+}
+
 .navlink__active {
   text-decoration: underline;
 }
@@ -253,6 +257,7 @@ padding: 1rem 2rem;
   height: 48px;
   width: auto;
   align-items: center;
+  margin-right: 5px;
 }
 
 .menutoggle , .hamburger {
@@ -268,7 +273,7 @@ padding: 1rem 2rem;
     margin-right: 15px;
   }
 
-  .hamburger .bar {
+  .hamburger .burgerbar {
     width: 25px;
     height: 3px;
     background-color: var(--dark_brown);
@@ -298,4 +303,6 @@ padding: 1rem 2rem;
     }
 
 }
+
+
 

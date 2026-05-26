@@ -304,5 +304,17 @@ padding: 1rem 2rem;
 
 }
 
+@media (max-width: 630px) {
+  .contact__mail , .fa-envelope {
+    display: none;
+  }
+
+  .contact__tel {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
 
 

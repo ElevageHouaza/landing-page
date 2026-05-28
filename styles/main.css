@@ -196,3 +196,125 @@ a:focus-visible {
   background-color: blueviolet;
 }
 
+.navbar {
+display: flex;
+justify-content: space-between;
+background-color: var(--cream);
+align-items: center;
+position: relative;
+padding: 1rem 2rem;
+}
+
+.leftnavbar {
+  display: flex;
+  justify-content: flex-start;
+  padding-right: 5px;
+  margin-left: 5px;
+}
+
+
+.navbar__nametag p:first-child {
+  font-size: var(--text-lg) ;
+  line-height: var(--leading-tight);
+  font-weight: var(--weight-bold);
+  margin-top: 3px;
+}
+
+.navbar__nametag p:last-child {
+  font-size: var(--text-sm) ;
+}
+
+#pholder_logo {
+  width: 16px;
+  height: 16px;
+}
+
+.rightnavbar {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.navlinks:hover {
+  text-decoration: underline;
+}
+
+.navlink__active {
+  text-decoration: underline;
+}
+
+.navbar__button--nouscontacter {
+  padding: 10px;
+  background-color: var(--dark_brown);
+  color: var(--cream);
+}
+
+.navbar__button--nouscontacter:hover {
+  background-color: hsl(29, 61%, 11%);
+}
+
+.navbar__logo {
+  height: 48px;
+  width: auto;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.menutoggle , .hamburger {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    margin-right: 15px;
+  }
+
+  .hamburger .burgerbar {
+    width: 25px;
+    height: 3px;
+    background-color: var(--dark_brown);
+    border-radius: 2px;
+  }
+
+  .rightnavbar {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 100% ;
+    left: 0;
+    background-color: var(--cream);
+    box-shadow: 0 4px 6px grey;
+    padding: 1rem 0;
+    text-align: center;
+    z-index: 100;
+  }
+
+  .rightnavbar a {
+    padding: 10px 0;
+  }
+
+  .menu-toggle:checked ~ .rightnavbar {
+        display: flex;
+    }
+
+}
+
+@media (max-width: 630px) {
+  .contact__mail , .fa-envelope {
+    display: none;
+  }
+
+  .contact__tel {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+
+

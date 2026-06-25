@@ -3,3 +3,8 @@
   justify-content: space-between;
   gap: 30px;
 }
+
+.col-half-screen-width {
+  max-width: 50%;
+  padding: 20px;
+}

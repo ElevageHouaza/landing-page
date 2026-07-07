@@ -4,7 +4,28 @@
   gap: 30px;
 }
 
-.col-half-screen-width {
+.col-6 {
   max-width: 50%;
+  padding: 20px;
+}
+
+.col-4 {
+  max-width: 33.33%;
+  padding: 20px;
+}
+
+.col-3 {
+  max-width: 25%;
+  padding: 20px;
+}
+
+.col-2 {
+  max-width: 16.66%;
+  padding: 20px;
+}
+
+
+.col-1 {
+  max-width: 8.33%;
   padding: 20px;
 }

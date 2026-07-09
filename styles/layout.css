@@ -24,8 +24,43 @@
   padding: 20px;
 }
 
-
 .col-1 {
   max-width: 8.33%;
   padding: 20px;
 }
+
+.col-5 {
+  max-width: 41.66%;
+  padding: 20px;
+}
+
+.col-7 {
+  max-width: 58.33%;
+  padding: 20px;
+}
+
+.col-8 {
+  max-width: 66.66%;
+  padding: 20px;
+}
+
+.col-9 {
+  max-width: 75%;
+  padding: 20px;
+}
+
+.col-10 {
+  max-width: 83.33%;
+  padding: 20px;
+}
+
+.col-11 {
+  max-width: 91.6%;
+  padding: 20px;
+}
+
+.col-12 {
+  max-width: 100%;
+  padding: 20px;
+}
+

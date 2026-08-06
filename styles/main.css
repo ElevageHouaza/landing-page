@@ -172,7 +172,7 @@ a:focus-visible {
 
 .langpills:hover {
   color: var(--cream);
-  background-color: #2EC4B6;
+  background-color: #caa15e;
 }
 
 .contact_icons {
@@ -193,7 +193,7 @@ a:focus-visible {
 }
 
 .active:hover {
-  background-color: blueviolet;
+  background-color: #caa15e;
 }
 
 .navbar {
@@ -247,6 +247,7 @@ padding: 1rem 2rem;
   padding: 10px;
   background-color: var(--dark_brown);
   color: var(--cream);
+  border-radius: 6px;
 }
 
 .navbar__button--nouscontacter:hover {
@@ -315,6 +316,65 @@ padding: 1rem 2rem;
     text-overflow: ellipsis;
   }
 }
+.hero {
+  margin-top: 50px;
+}
+
+.hero__pill--text {
+  border: 3px solid #DEE8C9;
+  background-color: #DEE8C9;
+  border-radius: 20px;
+  color: #7B9B6A;
+  padding: 1px 3px;
+}
+
+.hero__pill , .hero__title {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.hero__title {
+  font-family: var(--font-heading);
+}
+
+.hero__paragraph {
+  margin-bottom: 20px;
+}
+
+.hero__buttons {
+  gap: 16px ;
+  align-items: center;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.hero__button {
+  display: inline-block;
+  padding: 12px 20px;
+  text-decoration: none;
+}
+
+
+.hero__button--primary {
+  border: 2px solid var(--dark_brown);
+  background-color: var(--dark_brown);
+  margin-right: 10px;
+  color: var(--cream);
+  border-radius: 10px;
+}
+
+.hero__button--secondary {
+  border: 2px solid var(--dark_brown) ;
+  border-radius: 10px;
+}
+
+@media (max-width: 630px) {
+  .hero {
+    flex-wrap: wrap;
+  }
+}
+
+
 
 
 

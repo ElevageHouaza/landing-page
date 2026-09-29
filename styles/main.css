@@ -368,6 +368,12 @@ padding: 1rem 2rem;
   border-radius: 10px;
 }
 
+.hero__img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
 @media (max-width: 630px) {
   .hero {
     flex-wrap: wrap;
